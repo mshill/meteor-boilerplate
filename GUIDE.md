@@ -78,7 +78,7 @@ client/ 				# Client folder
 	components/			# Contains all components(*)
 	    common/         # General purpose html components
 	    layout/         # Layout html components
-universal/              # Universal folder
+imports/                # Imports folder
     model/  			# Model files, for each Meteor.Collection(*)
     routes/             # All routes(*)
 private/                # Private files (e.g config, docs)

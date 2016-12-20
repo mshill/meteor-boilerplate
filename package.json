@@ -4,6 +4,7 @@
   "description": "This boilerplate is here to give you a simple starting point for your meteor projects.",
   "main": "index.js",
   "dependencies": {
+    "babel-runtime": "^6.20.0",
     "bcrypt": "^0.8.7"
   },
   "devDependencies": {},
@@ -13,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matteodem/meteor-boilerplate.git"
+    "url": "git+https://github.com/mshill/meteor-boilerplate.git"
   },
   "author": "Matteo De Micheli",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matteodem/meteor-boilerplate/issues"
+    "url": "https://github.com/mshill/meteor-boilerplate/issues"
   },
-  "homepage": "https://github.com/matteodem/meteor-boilerplate#readme"
+  "homepage": "https://github.com/mshill/meteor-boilerplate#readme"
 }

@@ -138,7 +138,7 @@
       "remove" : [
         "client/components",
         "client/stylesheets/main.less",
-        "universal/routes/",
+        "imports/routes/",
         "client/entry.js"
       ],
       "files" : [

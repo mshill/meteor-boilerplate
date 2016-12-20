@@ -1,4 +1,4 @@
-import constants from '../../../universal/config.js';
+import constants from '../../../imports/config.js';
 
 export default function (Template) {
   const dict = new ReactiveDict('header');

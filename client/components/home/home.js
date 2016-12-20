@@ -43,7 +43,7 @@ export default function (Template) {
     'folder' : function () {
       return [
         { 'root' : 'client', 'children' : ['stylesheets', 'components'] },
-        { 'root' : 'universal', 'children': ['models', 'routes'] },
+        { 'root' : 'imports', 'children': ['models', 'routes'] },
         { 'root' : 'private' },
         { 'root' : 'server', 'children' : ['config', 'loaders'] },
         { 'root' : 'public' }

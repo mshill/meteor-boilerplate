@@ -1,5 +1,5 @@
-import config from '../universal/config';
-import createMainRoutes from '../universal/routes/mainRoutes';
+import config from '../imports/config';
+import createMainRoutes from '../imports/routes/mainRoutes';
 import createHome from './components/home/home';
 import createHeader from './components/header/header';
 
