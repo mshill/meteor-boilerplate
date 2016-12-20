@@ -13,18 +13,11 @@
           "private/templates/html/component.html",
           "private/templates/js/component.js"
         ]
-      },
-
-      "coffee" : {
-        "files" : [
-          "private/templates/html/component.html",
-          "private/templates/coffee/component.coffee"
-        ]
       }
     },
     "routes" : {
       "default" : {
-        "desc" : "Create a group of routes with Iron Router",
+        "desc" : "Create a group of routes with Flow Router",
         "variables" : [
           {
             "name" : "routeName",
@@ -37,11 +30,6 @@
         ],
         "files" : [
           "private/templates/js/route.js"
-        ]
-      },
-      "coffee" : {
-        "files" : [
-          "private/templates/coffee/route.coffee"
         ]
       }
     },
@@ -56,15 +44,10 @@
         ],
         "files" : [
           "private/templates/js/model.js",
+          "private/templates/js/methods.js",
           "private/templates/js/publication.js"
         ],
-        "notice" : "Dont forget to add Meteor.subscribe('__modelName__'); to your route!"
-      },
-      "coffee" : {
-        "files" : [
-          "private/templates/coffee/model.coffee",
-          "private/templates/coffee/publication.coffee"
-        ]
+        "notice" : "Don't forget to add Meteor.subscribe('__modelName__'); to your route!"
       }
     },
     "module" : {
@@ -79,13 +62,6 @@
         "files" : [
           "private/templates/html/module.html",
           "private/templates/js/module.js",
-          "private/templates/less/module.less"
-        ]
-      },
-      "coffee" : {
-        "files" : [
-          "private/templates/html/module.html",
-          "private/templates/coffee/module.coffee",
           "private/templates/less/module.less"
         ]
       }
@@ -106,7 +82,7 @@
     },
     "layout" : {
       "default" : {
-        "desc" : "Iron Layout template which yields your content",
+        "desc" : "Layout template which yields your content",
         "variables" : [
           {
             "name" : "layoutName",
@@ -148,17 +124,8 @@
         "private/templates/reset/entry.js",
         "private/templates/reset/main.less"
       ]
-    },
-    "coffee" : {
-      "files" : [
-        "private/templates/reset/home.html",
-        "private/templates/reset/layout.html",
-        "private/templates/reset/mainRoutes.coffee",
-        "private/templates/reset/main.less"
-      ]
     }
   },
   "packages": {
-    "coffee": ["coffeescript"]
   }
 }
