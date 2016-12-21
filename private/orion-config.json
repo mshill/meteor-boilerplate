@@ -6,6 +6,7 @@
         "variables" : [
           {
             "name" : "componentName",
+            "lcName" : "lcComponentName",
             "desc" : "What's the name of your component?"
           }
         ],
